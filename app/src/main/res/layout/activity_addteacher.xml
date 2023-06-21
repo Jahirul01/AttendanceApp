@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".AddTeacherActivity">
+
+  <EditText
+      android:id="@+id/teacherNameEt"
+      android:ems="15"
+      android:hint="@string/teacherName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:layout_marginTop="100dp"
+      android:autofillHints="string/teacherName" />
+  <EditText
+      android:id="@+id/teacherIndexEt"
+      android:ems="15"
+      android:hint="@string/teacherIndex"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:autofillHints="string/teacherName" />
+  <EditText
+      android:id="@+id/teacherPhoneEt"
+      android:ems="15"
+      android:hint="@string/teacherPhone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:inputType="phone"
+      android:autofillHints="string/teacherName"
+      tools:ignore="TextFields" />
+  <EditText
+      android:id="@+id/teacherEmailEt"
+      android:ems="15"
+      android:hint="@string/teacherEmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:autofillHints="string/teacherName"
+      tools:ignore="TextFields" />
+  <EditText
+      android:id="@+id/teacherPasswordEt"
+      android:ems="15"
+      android:hint="@string/teacherSetPassword"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:inputType="textPassword"
+      android:autofillHints="string/teacherName" />
+  <Button
+      android:id="@+id/teacherInformationSubmit"
+      android:text="@string/submit"
+      android:layout_margin="50dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+
+  </LinearLayout>

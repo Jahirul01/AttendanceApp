@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".AddStudent">
+
+    <EditText
+        android:id="@+id/studentNameEt"
+        android:ems="15"
+        android:hint="@string/student_name"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/student_name"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/studentClassNameEt"
+        android:ems="15"
+        android:hint="@string/student_Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/student_Class"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/studentSectionNameEt"
+        android:ems="15"
+        android:hint="@string/student_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/student_section"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/studentRollEt"
+        android:ems="15"
+        android:hint="@string/student_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/student_roll"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/studentPhoneEt"
+        android:ems="15"
+        android:hint="@string/student_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/student_phone"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/studentAddressEt"
+        android:ems="15"
+        android:hint="@string/student_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/student_address"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/studentInformationSubmit"
+        android:text="@string/submit"
+        android:layout_margin="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
