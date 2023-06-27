@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,AdminAllActivity.class);
         startActivity(intent);
     }
+
+    public void goAllStudentActivity(View view) {
+        Intent intent = new Intent(MainActivity.this,AllStudentActivity.class);
+        startActivity(intent);
+    }
 }
